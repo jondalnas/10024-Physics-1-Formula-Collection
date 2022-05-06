@@ -1,0 +1,108 @@
+\subsection{Temperatur og termisk ligevægt}
+	\textbf{Termodynamikkens nulde lov}: Hvis C er i termisk ligevægt med A og B, så må A og B være i ligevægt med hinanden.\\
+	\textbf{Kriterier for termiskligevægt}: To systemmer er i termiskligevægt hvis og kun hvis, begge deres temperaturer er det samme.\\
+
+\subsection{Termisk udvidelse}
+	\subsubsection{Linear udvidelse}
+		\begin{align}
+			\Delta L=\alpha L_0\Delta T
+		\end{align}
+		$\Delta L$: Længdeændring ($m$)\\
+		\coeflinexp\\
+		$L_0$: Begyndelseslængde ($m$)\\
+		\tempk
+
+	\subsection{Voluemn udvidelse}
+		\begin{align}
+			\Delta V=\beta V_0\Delta T
+		\end{align}
+		\volumen\\
+		\coefvolexp\\
+		\tempk
+	
+	\subsection{Termisk stress}
+		\begin{align}
+			F=-Y\alpha\Delta A
+		\end{align}
+		$F$: Termiske stress, når længde af materiale fastholdes ($N$)\\
+		\youngmod\\
+		\coeflinexp\\
+		\tempk\\
+		\areal
+	
+\subsection{Varmes størrelse}
+	\subsubsection{Specifik varme kapacitet}
+		\begin{align}
+			Q=mc\Delta T
+		\end{align}
+		\varme\\
+		\masse\\
+		\secvarmcap\\
+		\tempk
+	
+	\subsubsection{Molar varme kapacitet}
+		\begin{align}
+			Q=nC\Delta T
+		\end{align}
+		\varme\\
+		\mol\\
+		$C$: Molar varme kapacitet ($\frac{J}{mol K}$)\\
+		\tempk
+
+\subsection{Kalometri}
+	\subsubsection{Latent varme (faseskifte)}
+		\begin{align}
+			Q=mL
+		\end{align}
+		\varme\\
+		\masse\\
+		\latent
+
+\subsection{Varmeoverførsel}
+	\begin{align}
+		H=\frac{dQ}{dt}=kA\frac{T_H-T_C}{L}
+	\end{align}
+	\varmehast\\
+	\varme\\
+	\termkond\\
+	\areal\\
+	\tempV\\
+	\tempK\\
+	\lengde
+
+	\begin{align}
+		H=A\frac{T_H-T_C}{R}
+	\end{align}
+	\varmehast\\
+	\areal\\
+	\tempV\\
+	\tempK\\
+	\termmod
+
+	\begin{align}
+		R=\frac{L}{k}
+	\end{align}
+	\termmod\\
+	\lengde\\
+	\termkond
+
+	\subsubsection{Stråling}
+		\begin{align}
+			H=Ae\sigma T^4
+		\end{align}
+		\varmehast\\
+		\areal\\
+		\emis\\
+		\stefboltzkonst\\
+		\tempk
+
+	\subsubsection{Absorbans og stråling}
+		\begin{align}
+			H=Ae\sigma(T^4-T_s^4)
+		\end{align}
+		\varmehast\\
+		\areal\\
+		\emis\\
+		\stefboltzkonst\\
+		$T$: Absolutte overfladetemperatur ($K$)\\
+		$T_s$: Absolutte omgivelsestemperatur ($K$)
